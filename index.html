@@ -66,6 +66,54 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-buildFramework" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/06/07/buildFramework/" class="article-date">
+  <time datetime="2017-06-07T01:31:38.000Z" itemprop="datePublished">2017-06-07</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/build/">编译构建</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/06/07/buildFramework/">buildFramework</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="spark"><a href="#spark" class="headerlink" title="spark"></a>spark</h3><ol>
+<li>mvn -Pyarn -Phadoop-2.6 -Dhadoop.version=2.6.0 -DskipTests clean package</li>
+<li>mvn -Pyarn -Pbigtop-dist -Phadoop-2.6 -Dhadoop.version=2.6.0 -DskipTests clean package</li>
+<li>mvn -Pyarn -Phadoop-2.4 -Dhadoop.version=2.4.0 -Phive -Phive-thriftserver -DskipTests clean package</li>
+<li>mvn -Pyarn -Phadoop-2.4 -Dscala-2.10 -DskipTests clean package</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://kaidata.github.io/2017/06/07/buildFramework/" data-id="cj3mbs4k900014sjhes98p68w" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/spark-build/">spark build</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-git相关" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/06/06/git相关/" class="article-date">
@@ -96,7 +144,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://kaidata.github.io/2017/06/06/git相关/" data-id="cj3lhrqn8000140jh9z2jsz1d" class="article-share-link">Share</a>
+      <a data-url="http://kaidata.github.io/2017/06/06/git相关/" data-id="cj3mbs4jz00004sjhx68tkr5u" class="article-share-link">Share</a>
       
       
     </footer>
@@ -132,7 +180,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://kaidata.github.io/2017/06/05/readme-md/" data-id="cj3lhrqnb000240jhi73oqnje" class="article-share-link">Share</a>
+      <a data-url="http://kaidata.github.io/2017/06/05/readme-md/" data-id="cj3mbs4kc00024sjho2mfsl6n" class="article-share-link">Share</a>
       
       
     </footer>
@@ -177,7 +225,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://kaidata.github.io/2017/06/05/hello-world/" data-id="cj3lhrqn4000040jhf8ufo3rf" class="article-share-link">Share</a>
+      <a data-url="http://kaidata.github.io/2017/06/05/hello-world/" data-id="cj3mbs4le00074sjhg19dyvey" class="article-share-link">Share</a>
       
       
     </footer>
@@ -194,12 +242,33 @@
           <aside id="sidebar">
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/build/">编译构建</a></li></ul>
+    </div>
+  </div>
+
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/spark-build/">spark build</a></li></ul>
+    </div>
+  </div>
+
 
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/spark-build/" style="font-size: 10px;">spark build</a>
+    </div>
+  </div>
+
   
     
   <div class="widget-wrap">
@@ -216,6 +285,10 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2017/06/07/buildFramework/">buildFramework</a>
+          </li>
         
           <li>
             <a href="/2017/06/06/git相关/">git相关</a>
