@@ -5,17 +5,17 @@
   
   <title>buildFramework | kaidata</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="spark mvn -Pyarn -Phadoop-2.6 -Dhadoop.version=2.6.0 -DskipTests clean package mvn -Pyarn -Pbigtop-dist -Phadoop-2.6 -Dhadoop.version=2.6.0 -DskipTests clean package mvn -Pyarn -Phadoop-2.4 -Dhadoop.v">
+  <meta name="description" content="task1mvn -Pyarn -Phive -Phive-thriftserver -Psparkr -Pbigtop-dist -Phadoop-2.6 -Dhadoop.version=2.6.0 -DskipTests clean package -X -e question  12345678910[INFO] BUILD FAILURE[INFO] ------------------">
 <meta name="keywords" content="spark,build">
 <meta property="og:type" content="article">
 <meta property="og:title" content="buildFramework">
 <meta property="og:url" content="http://kaidata.github.io/2017/06/07/buildFramework/index.html">
 <meta property="og:site_name" content="kaidata">
-<meta property="og:description" content="spark mvn -Pyarn -Phadoop-2.6 -Dhadoop.version=2.6.0 -DskipTests clean package mvn -Pyarn -Pbigtop-dist -Phadoop-2.6 -Dhadoop.version=2.6.0 -DskipTests clean package mvn -Pyarn -Phadoop-2.4 -Dhadoop.v">
-<meta property="og:updated_time" content="2017-06-07T01:42:44.933Z">
+<meta property="og:description" content="task1mvn -Pyarn -Phive -Phive-thriftserver -Psparkr -Pbigtop-dist -Phadoop-2.6 -Dhadoop.version=2.6.0 -DskipTests clean package -X -e question  12345678910[INFO] BUILD FAILURE[INFO] ------------------">
+<meta property="og:updated_time" content="2017-06-08T09:17:54.685Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="buildFramework">
-<meta name="twitter:description" content="spark mvn -Pyarn -Phadoop-2.6 -Dhadoop.version=2.6.0 -DskipTests clean package mvn -Pyarn -Pbigtop-dist -Phadoop-2.6 -Dhadoop.version=2.6.0 -DskipTests clean package mvn -Pyarn -Phadoop-2.4 -Dhadoop.v">
+<meta name="twitter:description" content="task1mvn -Pyarn -Phive -Phive-thriftserver -Psparkr -Pbigtop-dist -Phadoop-2.6 -Dhadoop.version=2.6.0 -DskipTests clean package -X -e question  12345678910[INFO] BUILD FAILURE[INFO] ------------------">
   
     <link rel="alternate" href="/atom.xml" title="kaidata" type="application/atom+xml">
   
@@ -92,7 +92,14 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="spark"><a href="#spark" class="headerlink" title="spark"></a>spark</h3><ol>
+        <h3 id="task"><a href="#task" class="headerlink" title="task"></a>task</h3><pre><code><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mvn -Pyarn -Phive -Phive-thriftserver -Psparkr -Pbigtop-dist -Phadoop-2.6 -Dhadoop.version=2.6.0 -DskipTests clean package -X -e</div></pre></td></tr></table></figure>
+</code></pre><h3 id="question"><a href="#question" class="headerlink" title="question"></a>question</h3><ol>
+<li> <figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">[INFO] BUILD FAILURE</div><div class="line">[INFO] ------------------------------------------------------------------------</div><div class="line">[INFO] Total time: 02:18 min</div><div class="line">[INFO] Finished at: 2017-06-08T16:45:12+08:00</div><div class="line">[INFO] Final Memory: 59M/3484M</div><div class="line">[INFO] ------------------------------------------------------------------------</div><div class="line">[ERROR] PermGen space -&gt; [Help 1]</div><div class="line">java.lang.OutOfMemoryError: PermGen space</div><div class="line">	at java.lang.ClassLoader.defineClass1(Native Method)</div><div class="line">	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)</div></pre></td></tr></table></figure>
+<p> 解决方法：</p>
+ <figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">export MAVEN_OPTS="-Xmx4g -XX:ReservedCodeCacheSize=512m  -XX:MaxPermSize=1024m"</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="spark"><a href="#spark" class="headerlink" title="spark"></a>spark</h3><ol>
 <li>mvn -Pyarn -Phadoop-2.6 -Dhadoop.version=2.6.0 -DskipTests clean package</li>
 <li>mvn -Pyarn -Pbigtop-dist -Phadoop-2.6 -Dhadoop.version=2.6.0 -DskipTests clean package</li>
 <li>mvn -Pyarn -Phadoop-2.4 -Dhadoop.version=2.4.0 -Phive -Phive-thriftserver -DskipTests clean package</li>
@@ -102,7 +109,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://kaidata.github.io/2017/06/07/buildFramework/" data-id="cj3mbxt100000gojhdicuwwlc" class="article-share-link">Share</a>
+      <a data-url="http://kaidata.github.io/2017/06/07/buildFramework/" data-id="cj3o7nge70000kojh9tfe6znu" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/build/">build</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/spark/">spark</a></li></ul>
