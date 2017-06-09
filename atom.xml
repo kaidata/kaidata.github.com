@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kaidata.github.io/"/>
-  <updated>2017-06-09T01:45:12.770Z</updated>
+  <updated>2017-06-09T02:21:51.004Z</updated>
   <id>http://kaidata.github.io/</id>
   
   <author>
@@ -14,6 +14,78 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>研发环境相关</title>
+    <link href="http://kaidata.github.io/2017/06/09/%E7%A0%94%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9B%B8%E5%85%B3/"/>
+    <id>http://kaidata.github.io/2017/06/09/研发环境相关/</id>
+    <published>2017-06-09T01:51:00.000Z</published>
+    <updated>2017-06-09T02:21:51.004Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h2 id="研发环境"><a href="#研发环境" class="headerlink" title="研发环境"></a>研发环境</h2><h3 id="系统环境"><a href="#系统环境" class="headerlink" title="系统环境"></a>系统环境</h3><ol>
+<li>配置hadoop native DLL<ol>
+<li>解压文件：hadoop-common-2.6.0-bin-master.zip</li>
+<li>配置环境变量：<ol>
+<li>HADOOP_HOME=E:\developPlat\hadoop-common-2.6.0-bin-master</li>
+<li>Path=……%JAVA_HOME%\bin;%HADOOP_HOME%\bin;……</li>
+</ol>
+</li>
+<li>重启电脑</li>
+<li>运行spark WordCount测试代码</li>
+</ol>
+</li>
+</ol>
+<h3 id="IDE环境-intellij"><a href="#IDE环境-intellij" class="headerlink" title="IDE环境 intellij"></a>IDE环境 intellij</h3><ol>
+<li>编码：UTF-8<ol>
+<li>intellij -&gt; Setting -&gt; Editor -&gt; Code Style -&gt; Line separator: Unix and OS X(\n)</li>
+<li>intellij -&gt; Setting -&gt; Editor -&gt; File Encoding<ol>
+<li>Global Encoding: UTF-8</li>
+<li>Project Encoding: UTF-8</li>
+<li>Properties Files<ol>
+<li>Default encoding for properties files: UTF-8</li>
+<li>勾选 Transparent native-to-ascii conversion (否则项目中properties文件中的中文会显示成Unicode编码值)</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>换行符：intellij -&gt; Setting -&gt; Editor -&gt; Code Style -&gt; Line separator: Unix and OS X(\n)</li>
+<li>安装scala 插件</li>
+<li>使用系统安装的maven, 便于设置管理</li>
+<li>使用系统安装的java, 便于设置管理</li>
+<li>使用系统安装的scala, 便于设置管理</li>
+</ol>
+<h3 id="开发注意事项"><a href="#开发注意事项" class="headerlink" title="开发注意事项"></a>开发注意事项</h3><ol>
+<li><p>代码记录日志，日志统一代码实现使用 self4j</p>
+<ol>
+<li><p>eg：</p>
+ <figure class="highlight scala"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">val</span> <span class="type">LOG</span> = <span class="type">LoggerFactory</span>.getLogger(<span class="keyword">this</span>.getClass)</div></pre></td></tr></table></figure>
+  <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">private</span> <span class="keyword">final</span> <span class="keyword">static</span> Logger LOG = LoggerFactory.getLogger(WorldCountMR.class);</div></pre></td></tr></table></figure>
+</li>
+</ol>
+</li>
+</ol>
+<h2 id="开发积累"><a href="#开发积累" class="headerlink" title="开发积累"></a>开发积累</h2><ol>
+<li>确保开发环境正常（helloworld、wordCount）</li>
+<li>官方文档，业内团队、前辈的blog       （eg：阿里搜索团队，美团点评团队，github pages）</li>
+<li>intellij下, f2(javadoc), f3(源代码), ctrl+t(继承结构), ctrl+G(被调用)</li>
+<li>infoq 上对眼的 演讲</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h2 id=&quot;研发环境&quot;&gt;&lt;a href=&quot;#研发环境&quot; class=&quot;headerlink&quot; title=&quot;研发环境&quot;&gt;&lt;/a&gt;研发环境&lt;/h2&gt;&lt;h3 id=&quot;系统环境&quot;&gt;&lt;
+    
+    </summary>
+    
+      <category term="研发" scheme="http://kaidata.github.io/categories/develop/"/>
+    
+    
+      <category term="develop" scheme="http://kaidata.github.io/tags/develop/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo相关</title>
