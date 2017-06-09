@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>kaidata</title>
+  <subtitle>kai data analysis</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://kaidata.github.io/"/>
+  <updated>2017-06-09T01:35:45.812Z</updated>
+  <id>http://kaidata.github.io/</id>
+  
+  <author>
+    <name>KaiLee</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo相关</title>
+    <link href="http://kaidata.github.io/2017/06/09/hexo%E7%9B%B8%E5%85%B3/"/>
+    <id>http://kaidata.github.io/2017/06/09/hexo相关/</id>
+    <published>2017-06-09T01:11:24.000Z</published>
+    <updated>2017-06-09T01:35:45.812Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h3 id="config-yml"><a href="#config-yml" class="headerlink" title="config.yml"></a>config.yml</h3><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Hexo Configuration</span></div><div class="line"><span class="comment">## Docs: https://hexo.io/docs/configuration.html</span></div><div class="line"><span class="comment">## Source: https://github.com/hexojs/hexo/</span></div><div class="line"></div><div class="line"><span class="comment"># Site</span></div><div class="line"><span class="attr">title:</span> <span class="string">kaidata</span></div><div class="line"><span class="attr">subtitle:</span> <span class="string">kai</span> <span class="string">data</span> <span class="string">analysis</span></div><div class="line"><span class="attr">description:</span> <span class="string">李凯的大数据处理杂记</span></div><div class="line"><span class="attr">author:</span> <span class="string">KaiLee</span></div><div class="line"><span class="attr">language:</span> <span class="string">zh-CN</span></div><div class="line"><span class="attr">timezone:</span> <span class="string">Asia/Shanghai</span></div><div class="line"></div><div class="line"><span class="comment"># URL</span></div><div class="line"><span class="comment">## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'</span></div><div class="line"><span class="attr">url:</span> <span class="attr">http://kaidata.github.io/</span></div><div class="line"><span class="attr">root:</span> <span class="string">/</span></div><div class="line"><span class="attr">permalink:</span> <span class="string">:year/:month/:day/:title/</span></div><div class="line"><span class="attr">permalink_defaults:</span></div><div class="line"></div><div class="line"><span class="comment"># Directory</span></div><div class="line"><span class="attr">source_dir:</span> <span class="string">source</span></div><div class="line"><span class="attr">public_dir:</span> <span class="string">public</span></div><div class="line"><span class="attr">tag_dir:</span> <span class="string">tags</span></div><div class="line"><span class="attr">archive_dir:</span> <span class="string">archives</span></div><div class="line"><span class="attr">category_dir:</span> <span class="string">categories</span></div><div class="line"><span class="attr">code_dir:</span> <span class="string">downloads/code</span></div><div class="line"><span class="attr">i18n_dir:</span> <span class="string">:lang</span></div><div class="line"><span class="attr">skip_render:</span></div><div class="line"></div><div class="line"><span class="comment"># Writing</span></div><div class="line"><span class="attr">new_post_name:</span> <span class="string">:title.md</span> <span class="comment"># File name of new posts</span></div><div class="line"><span class="attr">default_layout:</span> <span class="string">post</span></div><div class="line"><span class="attr">titlecase:</span> <span class="literal">false</span> <span class="comment"># Transform title into titlecase</span></div><div class="line"><span class="attr">external_link:</span> <span class="literal">true</span> <span class="comment"># Open external links in new tab</span></div><div class="line"><span class="attr">filename_case:</span> <span class="number">0</span></div><div class="line"><span class="attr">render_drafts:</span> <span class="literal">false</span></div><div class="line"><span class="attr">post_asset_folder:</span> <span class="literal">false</span></div><div class="line"><span class="attr">relative_link:</span> <span class="literal">false</span></div><div class="line"><span class="attr">future:</span> <span class="literal">true</span></div><div class="line"><span class="attr">highlight:</span></div><div class="line"><span class="attr">  enable:</span> <span class="literal">true</span></div><div class="line"><span class="attr">  line_number:</span> <span class="literal">true</span></div><div class="line"><span class="attr">  auto_detect:</span> <span class="literal">false</span></div><div class="line"><span class="attr">  tab_replace:</span></div><div class="line"></div><div class="line"><span class="comment"># Category &amp; Tag</span></div><div class="line"><span class="attr">default_category:</span> <span class="string">uncategorized</span></div><div class="line"><span class="attr">category_map:</span></div><div class="line">		<span class="string">大数据:</span> <span class="string">bigdata</span></div><div class="line">		<span class="string">语言:</span> <span class="string">lang</span></div><div class="line">		<span class="string">框架:</span> <span class="string">framework</span></div><div class="line">		<span class="string">编译构建:</span> <span class="string">build</span></div><div class="line">		<span class="string">其他:</span> <span class="string">other</span></div><div class="line"><span class="attr">tag_map:</span></div><div class="line"></div><div class="line"><span class="comment"># Date / Time format</span></div><div class="line"><span class="comment">## Hexo uses Moment.js to parse and display date</span></div><div class="line"><span class="comment">## You can customize the date format as defined in</span></div><div class="line"><span class="comment">## http://momentjs.com/docs/#/displaying/format/</span></div><div class="line"><span class="attr">date_format:</span> <span class="string">YYYY-MM-DD</span></div><div class="line"><span class="attr">time_format:</span> <span class="attr">HH:mm:ss</span></div><div class="line"></div><div class="line"><span class="comment"># Pagination</span></div><div class="line"><span class="comment">## Set per_page to 0 to disable pagination</span></div><div class="line"><span class="attr">per_page:</span> <span class="number">10</span></div><div class="line"><span class="attr">pagination_dir:</span> <span class="string">page</span></div><div class="line"></div><div class="line"><span class="comment"># Extensions</span></div><div class="line"><span class="comment">## Plugins: https://hexo.io/plugins/</span></div><div class="line"><span class="comment">## Themes: https://hexo.io/themes/</span></div><div class="line"><span class="comment">#plugins:</span></div><div class="line">  <span class="comment">#- hexo-generator-feed</span></div><div class="line">  <span class="comment">#- hexo-generator-sitemap</span></div><div class="line"></div><div class="line"></div><div class="line"><span class="attr">theme:</span> <span class="string">landscape</span></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"><span class="comment"># Deployment</span></div><div class="line"><span class="comment">## Docs: https://hexo.io/docs/deployment.html</span></div><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">git</span></div><div class="line"><span class="attr">  repo:</span> <span class="attr">https://github.com/kaidata/kaidata.github.com.git</span></div><div class="line"><span class="attr">  branch:</span> <span class="string">master</span></div></pre></td></tr></table></figure>
+<h3 id="命令相关"><a href="#命令相关" class="headerlink" title="命令相关"></a>命令相关</h3><pre><code>1. 主题
+    1. maupassant
+    <figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">git clone https://github.com/tufu9441/maupassant-hexo.git themes/maupassant</div><div class="line">npm install hexo-renderer-jade@0.3.0 --save</div><div class="line">npm install hexo-renderer-sass --save</div></pre></td></tr></table></figure>
+
+2. 插件
+    1. hexo-admin
+    <figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install --save hexo-admin</div></pre></td></tr></table></figure>
+
+    2.
+    <figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install --save hexo-tag-aplayer</div></pre></td></tr></table></figure>
+
+    3.
+    <figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-migrator-wordpress --save</div></pre></td></tr></table></figure>
+
+    4.
+    <figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">npm install hexo-generator-feed --save</div><div class="line">npm install hexo-generator-baidu-sitemap --save</div></pre></td></tr></table></figure>
+
+    5.
+    <figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"> </div></pre></td></tr></table></figure>
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h3 id=&quot;config-yml&quot;&gt;&lt;a href=&quot;#config-yml&quot; class=&quot;headerlink&quot; title=&quot;config.yml&quot;&gt;&lt;/a&gt;config
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>buildFramework</title>
+    <link href="http://kaidata.github.io/2017/06/07/buildFramework/"/>
+    <id>http://kaidata.github.io/2017/06/07/buildFramework/</id>
+    <published>2017-06-07T01:31:38.000Z</published>
+    <updated>2017-06-08T09:29:32.575Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h3 id="task"><a href="#task" class="headerlink" title="task"></a>task</h3><pre><code><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mvn -Pyarn -Phive -Phive-thriftserver -Psparkr -Pbigtop-dist -Phadoop-2.6 -Dhadoop.version=2.6.0 -DskipTests clean package -X -e</div></pre></td></tr></table></figure>
+</code></pre><h3 id="question"><a href="#question" class="headerlink" title="question"></a>question</h3><ol>
+<li> <figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">[INFO] BUILD FAILURE</div><div class="line">[INFO] ------------------------------------------------------------------------</div><div class="line">[INFO] Total time: 02:18 min</div><div class="line">[INFO] Finished at: 2017-06-08T16:45:12+08:00</div><div class="line">[INFO] Final Memory: 59M/3484M</div><div class="line">[INFO] ------------------------------------------------------------------------</div><div class="line">[ERROR] PermGen space -&gt; [Help 1]</div><div class="line">java.lang.OutOfMemoryError: PermGen space</div><div class="line">	at java.lang.ClassLoader.defineClass1(Native Method)</div><div class="line">	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)</div></pre></td></tr></table></figure>
+<p> 解决方法：</p>
+ <figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">export MAVEN_OPTS="-Xmx4g -XX:ReservedCodeCacheSize=512m  -XX:MaxPermSize=1024m"</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="spark"><a href="#spark" class="headerlink" title="spark"></a>spark</h3><ol>
+<li>mvn -Pyarn -Phadoop-2.6 -Dhadoop.version=2.6.0 -DskipTests clean package</li>
+<li>mvn -Pyarn -Pbigtop-dist -Phadoop-2.6 -Dhadoop.version=2.6.0 -DskipTests clean package</li>
+<li>mvn -Pyarn -Phadoop-2.4 -Dhadoop.version=2.4.0 -Phive -Phive-thriftserver -DskipTests clean package</li>
+<li>mvn -Pyarn -Phadoop-2.4 -Dscala-2.10 -DskipTests clean package</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h3 id=&quot;task&quot;&gt;&lt;a href=&quot;#task&quot; class=&quot;headerlink&quot; title=&quot;task&quot;&gt;&lt;/a&gt;task&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;&lt;fig
+    
+    </summary>
+    
+      <category term="编译构建" scheme="http://kaidata.github.io/categories/build/"/>
+    
+    
+      <category term="spark" scheme="http://kaidata.github.io/tags/spark/"/>
+    
+      <category term="build" scheme="http://kaidata.github.io/tags/build/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git相关</title>
+    <link href="http://kaidata.github.io/2017/06/06/git%E7%9B%B8%E5%85%B3/"/>
+    <id>http://kaidata.github.io/2017/06/06/git相关/</id>
+    <published>2017-06-06T11:30:27.000Z</published>
+    <updated>2017-06-06T11:36:17.493Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h5 id="error-RPC-failed-result-56-HTTP-code-200"><a href="#error-RPC-failed-result-56-HTTP-code-200" class="headerlink" title="error: RPC failed; result=56, HTTP code = 200"></a>error: RPC failed; result=56, HTTP code = 200</h5><ol>
+<li>git config http.postBuffer 524288000</li>
+<li>git config –global http.postBuffer 524288000</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h5 id=&quot;error-RPC-failed-result-56-HTTP-code-200&quot;&gt;&lt;a href=&quot;#error-RPC-failed-result-56-HTT
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
