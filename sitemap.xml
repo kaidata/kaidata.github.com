@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://kaidata.github.io/2017/06/09/data-generator-%E6%95%B0%E6%8D%AE%E7%94%9F%E6%88%90%E7%BA%AA%E8%A6%81/</loc>
+    
+    <lastmod>2017-06-09T06:14:35.621Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kaidata.github.io/2017/06/09/spark-sql-hive%E7%BA%AA%E8%A6%81/</loc>
+    
+    <lastmod>2017-06-09T03:31:28.216Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kaidata.github.io/2017/06/09/spark-R%E7%BA%AA%E8%A6%81/</loc>
+    
+    <lastmod>2017-06-09T03:31:12.828Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://kaidata.github.io/2017/06/09/oozie%E7%BA%AA%E8%A6%81/</loc>
+    
+    <lastmod>2017-06-09T03:29:28.707Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://kaidata.github.io/2017/06/09/%E7%A0%94%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9B%B8%E5%85%B3/</loc>
     
     <lastmod>2017-06-09T03:26:12.190Z</lastmod>
