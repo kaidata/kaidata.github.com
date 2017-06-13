@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://kaidata.github.io/"/>
-  <updated>2017-06-09T06:41:18.156Z</updated>
+  <updated>2017-06-13T01:23:31.448Z</updated>
   <id>http://kaidata.github.io/</id>
   
   <author>
@@ -14,6 +14,99 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>智慧城市</title>
+    <link href="http://kaidata.github.io/2017/06/13/%E6%99%BA%E6%85%A7%E5%9F%8E%E5%B8%82/"/>
+    <id>http://kaidata.github.io/2017/06/13/智慧城市/</id>
+    <published>2017-06-13T01:23:31.000Z</published>
+    <updated>2017-06-13T01:23:31.448Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>平安城市</title>
+    <link href="http://kaidata.github.io/2017/06/13/%E5%B9%B3%E5%AE%89%E5%9F%8E%E5%B8%82/"/>
+    <id>http://kaidata.github.io/2017/06/13/平安城市/</id>
+    <published>2017-06-13T01:23:19.000Z</published>
+    <updated>2017-06-13T01:23:19.340Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>大数据安防</title>
+    <link href="http://kaidata.github.io/2017/06/13/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%AE%89%E9%98%B2/"/>
+    <id>http://kaidata.github.io/2017/06/13/大数据安防/</id>
+    <published>2017-06-13T01:10:46.000Z</published>
+    <updated>2017-06-13T01:10:46.431Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>点滴杂记</title>
+    <link href="http://kaidata.github.io/2017/06/13/%E7%82%B9%E6%BB%B4%E6%9D%82%E8%AE%B0/"/>
+    <id>http://kaidata.github.io/2017/06/13/点滴杂记/</id>
+    <published>2017-06-13T01:10:07.000Z</published>
+    <updated>2017-06-13T01:10:07.711Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>oracle实战</title>
+    <link href="http://kaidata.github.io/2017/06/13/oracle%E5%AE%9E%E6%88%98/"/>
+    <id>http://kaidata.github.io/2017/06/13/oracle实战/</id>
+    <published>2017-06-13T01:09:30.000Z</published>
+    <updated>2017-06-13T01:34:03.043Z</updated>
+    
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><p>异常现象：<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">ORA-28000: the account is locked</div><div class="line"></div><div class="line">sqlplus</div></pre></td></tr></table></figure></p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sys/password as sysdba</div><div class="line"><span class="keyword">alter</span> <span class="keyword">user</span> <span class="keyword">ACCOUNT</span> <span class="keyword">account</span> <span class="keyword">unlock</span>;</div><div class="line"><span class="keyword">commit</span>;</div></pre></td></tr></table></figure>
+<p>oracle分页<br><figure class="highlight scala"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="comment">/**</span></div><div class="line">  * 构建分页查询语句</div><div class="line">  *</div><div class="line">  * @return</div><div class="line">  */</div><div class="line"><span class="keyword">private</span> <span class="function"><span class="keyword">def</span> <span class="title">query</span></span>(pageNum: <span class="type">Int</span>, pageSize: <span class="type">Int</span>, fieldBuf: mutable.<span class="type">Buffer</span>[<span class="type">String</span>], dbTable: <span class="type">String</span>, conditionPart: <span class="type">String</span>): <span class="type">String</span> = &#123;</div><div class="line">  <span class="keyword">val</span> basic = <span class="string">"( select "</span> + fieldBuf.map(<span class="string">"a."</span> + _).mkString(<span class="string">","</span>) + <span class="string">", rownum as rn from "</span> + dbTable + <span class="string">" a ) b "</span></div><div class="line"></div><div class="line">  <span class="keyword">val</span> condition = <span class="keyword">if</span> (<span class="type">StringUtils</span>.isNotEmpty(conditionPart))</div><div class="line">    <span class="string">" where "</span> + conditionPart + <span class="string">" AND  b.rn between "</span> + ((pageNum - <span class="number">1</span>) * pageSize + <span class="number">1</span>) + <span class="string">" AND "</span> + (pageNum) * pageSize</div><div class="line">  <span class="keyword">else</span></div><div class="line">    <span class="string">" where b.rn between "</span> + ((pageNum - <span class="number">1</span>) * pageSize + <span class="number">1</span>) + <span class="string">" AND "</span> + (pageNum) * pageSize</div><div class="line"></div><div class="line">  <span class="string">"( select "</span> + fieldBuf.mkString(<span class="string">","</span>) + <span class="string">" from "</span> + basic + condition + <span class="string">" ) c"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;p&gt;异常现象：&lt;br&gt;&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>data-generator-数据生成纪要</title>
@@ -260,16 +353,105 @@ File Metadata
     <link href="http://kaidata.github.io/2017/06/09/oozie%E7%BA%AA%E8%A6%81/"/>
     <id>http://kaidata.github.io/2017/06/09/oozie纪要/</id>
     <published>2017-06-09T03:29:28.000Z</published>
-    <updated>2017-06-09T03:29:28.707Z</updated>
+    <updated>2017-06-13T09:59:06.712Z</updated>
     
-    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script>]]></content>
+    <content type="html"><![CDATA[<script src="/assets/js/APlayer.min.js"> </script><h3 id="oozie安装"><a href="#oozie安装" class="headerlink" title="oozie安装"></a>oozie安装</h3><ol>
+<li>oozie功能测试</li>
+<li>无非3种安装模式<ol>
+<li>cdh 等提供的cloudera manager 安装方式，文档简单具体；真他妈的猿性化</li>
+<li>原生oozie官网的源码编译模式，文档清晰明了；真他妈的猿性化</li>
+<li>自己公司的安装方法模式，chedan</li>
+</ol>
+</li>
+</ol>
+<h4 id="oozie功能测试"><a href="#oozie功能测试" class="headerlink" title="oozie功能测试"></a>oozie功能测试</h4><ol>
+<li><p>准备文件如下：</p>
+<ol>
+<li>带wordcount功能的jar包</li>
+<li>任务配置文件目录结构如下<br> –cron<pre><code>--job.properties
+--workflow.xml
+--coordinator.xml
+</code></pre>2.具体文件内容如下：</li>
+<li><p>job.properties</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">nameNode=hdfs://master66:8020</div><div class="line">jobTracker=master66:18040</div><div class="line">queueName=default</div><div class="line"></div><div class="line">oozie.coord.application.path=$&#123;nameNode&#125;/dev/oozieJob/cron</div><div class="line"><span class="meta">#</span>oozie.wf.application.path=$&#123;nameNode&#125;/dev/oozieJob/cron</div><div class="line">start=2017-06-05T02:00+0800</div><div class="line">end=2017-06-07T03:00+0800</div><div class="line">workflowAppUri=$&#123;nameNode&#125;/dev/oozieJob/cron</div><div class="line">oozie.use.system.libpath=true</div><div class="line"></div><div class="line">frequency=*/15 * * * *</div><div class="line">master=yarn</div><div class="line">deploy_mode=client</div><div class="line">jar_path=/usr/local/envtch/ooziejobs/envtest.jar</div><div class="line">class=com.chaosdata.env.WordCount</div><div class="line">spark_opts=--num-executors 3 --executor-cores 1 --executor-memory 1G --driver-memory 512m --conf spark.yarn.historyServer.address=http://master66:18088 --conf spark.eventLog.dir=hdfs://master66:8020/var/log/spark_hislog --conf spark.eventLog.enabled=true</div></pre></td></tr></table></figure>
+</li>
+<li><p>workflow.xml</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div></pre></td><td class="code"><pre><div class="line">&lt;workflow-app name="firstdemo-wf" xmlns="uri:oozie:workflow:0.1"&gt;</div><div class="line">    &lt;start to='firstdemo'/&gt;</div><div class="line">    &lt;action name="firstdemo"&gt;</div><div class="line">        &lt;spark xmlns="uri:oozie:spark-action:0.1"&gt;</div><div class="line">            &lt;job-tracker&gt;$&#123;jobTracker&#125;&lt;/job-tracker&gt;</div><div class="line">            &lt;name-node&gt;$&#123;nameNode&#125;&lt;/name-node&gt;</div><div class="line">            &lt;configuration&gt;</div><div class="line">                &lt;property&gt;</div><div class="line">                    &lt;name&gt;mapred.compress.map.output&lt;/name&gt;</div><div class="line">                    &lt;value&gt;true&lt;/value&gt;</div><div class="line">                &lt;/property&gt;</div><div class="line">            &lt;/configuration&gt;</div><div class="line">            &lt;master&gt;$&#123;master&#125;&lt;/master&gt;</div><div class="line">            &lt;mode&gt;$&#123;deploy_mode&#125;&lt;/mode&gt;</div><div class="line">            &lt;name&gt;Spark wc&lt;/name&gt;</div><div class="line">            &lt;class&gt;$&#123;class&#125;&lt;/class&gt;</div><div class="line">            &lt;jar&gt;$&#123;jar_path&#125;&lt;/jar&gt;</div><div class="line">            &lt;spark-opts&gt;$&#123;spark_opts&#125;&lt;/spark-opts&gt;</div><div class="line">        &lt;/spark&gt;</div><div class="line">        &lt;ok to="end"/&gt;</div><div class="line">        &lt;error to="kill"/&gt;</div><div class="line">    &lt;/action&gt;</div><div class="line">    &lt;kill name='kill'&gt;</div><div class="line">        &lt;message&gt;Something went wrong: $&#123;wf:errorCode('firstdemo')&#125;&lt;/message&gt;</div><div class="line">    &lt;/kill&gt;</div><div class="line">    &lt;end name='end'/&gt;</div><div class="line">&lt;/workflow-app&gt;</div></pre></td></tr></table></figure>
+</li>
+<li><p>coordinator.xml</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line">&lt;coordinator-app name="cron-wc-coord" frequency="$&#123;frequency&#125;" start="$&#123;start&#125;" end="$&#123;end&#125;" timezone="Asia/Shanghai"</div><div class="line">                 xmlns="uri:oozie:coordinator:0.2"&gt;</div><div class="line">        &lt;action&gt;</div><div class="line">        &lt;workflow&gt;</div><div class="line">            &lt;app-path&gt;$&#123;workflowAppUri&#125;&lt;/app-path&gt;</div><div class="line">            &lt;configuration&gt;</div><div class="line">                &lt;property&gt;</div><div class="line">                    &lt;name&gt;jobTracker&lt;/name&gt;</div><div class="line">                    &lt;value&gt;$&#123;jobTracker&#125;&lt;/value&gt;</div><div class="line">                &lt;/property&gt;</div><div class="line">                &lt;property&gt;</div><div class="line">                    &lt;name&gt;nameNode&lt;/name&gt;</div><div class="line">                    &lt;value&gt;$&#123;nameNode&#125;&lt;/value&gt;</div><div class="line">                &lt;/property&gt;</div><div class="line">                &lt;property&gt;</div><div class="line">                    &lt;name&gt;queueName&lt;/name&gt;</div><div class="line">                    &lt;value&gt;$&#123;queueName&#125;&lt;/value&gt;</div><div class="line">                &lt;/property&gt;</div><div class="line">            &lt;/configuration&gt;</div><div class="line">        &lt;/workflow&gt;</div><div class="line">    &lt;/action&gt;</div><div class="line">&lt;/coordinator-app&gt;</div></pre></td></tr></table></figure>
+</li>
+</ol>
+</li>
+<li><p>WordCount.scala</p>
+<figure class="highlight scala"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">package</span> com.chaosdata.env</div><div class="line"></div><div class="line"><span class="keyword">import</span> org.apache.spark.&#123;<span class="type">SparkConf</span>, <span class="type">SparkContext</span>&#125;</div><div class="line"></div><div class="line"><span class="class"><span class="keyword">object</span> <span class="title">WordCount</span> </span>&#123;</div><div class="line">  <span class="function"><span class="keyword">def</span> <span class="title">main</span></span>(args: <span class="type">Array</span>[<span class="type">String</span>]): <span class="type">Unit</span> = &#123;</div><div class="line">    <span class="keyword">val</span> splitor = <span class="string">"\\s+"</span></div><div class="line">    <span class="keyword">val</span> conf = <span class="keyword">new</span> <span class="type">SparkConf</span>().setAppName(<span class="keyword">this</span>.getClass.getSimpleName)</div><div class="line">    <span class="comment">//    .setMaster("yarn-cluster")</span></div><div class="line"><span class="comment">//          .setMaster("local")</span></div><div class="line"></div><div class="line">    <span class="keyword">val</span> sc = <span class="keyword">new</span> <span class="type">SparkContext</span>(conf)</div><div class="line">    <span class="keyword">val</span> resultRdd = sc.textFile(<span class="string">"/dev/datacenter/input/env/*"</span>).flatMap(_.split(splitor).map(word =&gt; (word, <span class="number">1</span>))).reduceByKey(_ + _)</div><div class="line">    resultRdd.saveAsTextFile(<span class="string">"/dev/datacenter/output/env/spark/output/"</span> + <span class="type">System</span>.currentTimeMillis())</div><div class="line"></div><div class="line">    sc.stop()</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+</li>
+<li><p>打成uber jar；即全量jar</p>
+<ol>
+<li>intellij默认打包：<ol>
+<li>Project Structure –&gt; Project Settings –&gt; Artifacts –&gt; 点击绿色+ –&gt; JAR –&gt; from Modules with Dependencies –&gt; OK</li>
+<li>Build –&gt; Build Artifact –&gt; 选择Artifact –&gt; rebuild</li>
+</ol>
+</li>
+<li>maven shade插件</li>
+</ol>
+</li>
+</ol>
+<h4 id="oozie-sharelib-部署"><a href="#oozie-sharelib-部署" class="headerlink" title="oozie sharelib 部署"></a>oozie sharelib 部署</h4><ol>
+<li>编译形成sharelib并压缩成tar文件</li>
+<li>部署sharelib到hdfs上： <figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span>&#123;OOZIE_HOME&#125;bin/oozie-setup.sh sharelib create -fs hdfs://master66:8020 -locallib ./oozie-sharelib-4.1.0-cdh5.4.1.tar.gz</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<h4 id="oozie-sharelib-编译"><a href="#oozie-sharelib-编译" class="headerlink" title="oozie sharelib 编译"></a>oozie sharelib 编译</h4><ol>
+<li><p>签下对应版本源代码,假设路劲 OOZIE_SRC_HOME=E:\developPlat\openSrc\oozie-cdh5-4.1.0_5.11.0</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">git https://github.com/cloudera/oozie.git #签下代码</div><div class="line">cd $&#123;OOZIE_SRC_HOME&#125;/sharelib/spark</div><div class="line">mvn -DskipTests clean package assembly:single</div><div class="line">cd ../oozie</div><div class="line">mvn -DskipTests clean package assembly:single</div></pre></td></tr></table></figure>
+</li>
+<li><p>取出编译好的文件备用</p>
+<ol>
+<li>${OOZIE_SRC_HOME}/sharelib/spark/target/partial-sharelib/share/lib/oozie/oozie-sharelib-spark-4.1.0-cdh5.11.0.jar</li>
+<li>${OOZIE_SRC_HOME}/sharelib/oozie/target/partial-sharelib/share/lib/oozie/oozie-sharelib-oozie-4.1.0-cdh5.11.0.jar</li>
+<li>${OOZIE_SRC_HOME}/sharelib/oozie/target/partial-sharelib/share/lib/oozie/oozie-hadoop-utils-2.6.0-cdh5.11.0.oozie-4.1.0-cdh5.11.0.jar</li>
+</ol>
+</li>
+</ol>
+<h4 id="oozie配置使用mysql数据库"><a href="#oozie配置使用mysql数据库" class="headerlink" title="oozie配置使用mysql数据库"></a>oozie配置使用mysql数据库</h4><ol>
+<li><p>创建数据库：</p>
+ <figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">create</span> <span class="keyword">database</span> ooziedb;</div><div class="line"><span class="keyword">grant</span> all <span class="keyword">privileges</span> <span class="keyword">on</span> ooziedb <span class="keyword">to</span> <span class="string">'oozie'</span>@<span class="string">'localhost'</span> <span class="keyword">identified</span> <span class="keyword">by</span> <span class="string">'passwd'</span>;</div><div class="line"><span class="keyword">grant</span> all <span class="keyword">privileges</span> <span class="keyword">on</span> ooziedb <span class="keyword">to</span> <span class="string">'oozie'</span>@<span class="string">'%'</span> <span class="keyword">identified</span> <span class="keyword">by</span> <span class="string">'passwd'</span>;</div><div class="line"><span class="keyword">flush</span> <span class="keyword">privileges</span>;</div></pre></td></tr></table></figure>
+</li>
+<li><p>修改配置使用mysql数据库</p>
+ <figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">property</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">name</span>&gt;</span>oozie.db.schema.id<span class="tag">&lt;/<span class="name">name</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">value</span>&gt;</span>ooziedb<span class="tag">&lt;/<span class="name">value</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">property</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">property</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">name</span>&gt;</span>oozie.service.JPAService.create.db.schema<span class="tag">&lt;/<span class="name">name</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">value</span>&gt;</span>true<span class="tag">&lt;/<span class="name">value</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">property</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">property</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">name</span>&gt;</span>oozie.service.StoreService.jdbc.driver<span class="tag">&lt;/<span class="name">name</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">value</span>&gt;</span>com.mysql.jdbc.Driver<span class="tag">&lt;/<span class="name">value</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">property</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">property</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">name</span>&gt;</span>oozie.service.StoreService.jdbc.url<span class="tag">&lt;/<span class="name">name</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">value</span>&gt;</span>jdbc:mysql://localhost:3306/ooziedb<span class="tag">&lt;/<span class="name">value</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">property</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">property</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">name</span>&gt;</span>oozie.service.StoreService.jdbc.username<span class="tag">&lt;/<span class="name">name</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">value</span>&gt;</span>oozie<span class="tag">&lt;/<span class="name">value</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">property</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">property</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">name</span>&gt;</span>oozie.service.StoreService.jdbc.password<span class="tag">&lt;/<span class="name">name</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">value</span>&gt;</span>passwd<span class="tag">&lt;/<span class="name">value</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">property</span>&gt;</span></div></pre></td></tr></table></figure>
+</li>
+<li><p>拷贝mysql-connector-java-x.y.z.jar到${OOZIE_HOME}/bin/libtools/</p>
+</li>
+<li>重启</li>
+</ol>
+<h3 id="问题集锦"><a href="#问题集锦" class="headerlink" title="问题集锦"></a>问题集锦</h3><ol>
+<li>ERROR 1819 (HY000): Your password does not satisfy the current policy requirements<br>解决办法：密码需要同时包含大小写字母及数字</li>
+<li>javax.servlet.jsp.el.ELException: variable [spark] cannot be resolved<br>解决办法：oozei变量命名不可以有“-”等特殊字符，如spark-opts是非法的，可改成spark_opts</li>
+<li>版本不一致： <figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line">Failing Oozie Launcher, Main class [org.apache.oozie.action.hadoop.SparkMain], main() threw exception, Expected static method org.apache.oozie.action.hadoop.SparkMain.loadActionConf()Lorg/apache/hadoop/conf/Configuration;</div><div class="line">java.lang.IncompatibleClassChangeError: Expected static method org.apache.oozie.action.hadoop.SparkMain.loadActionConf()Lorg/apache/hadoop/conf/Configuration;</div><div class="line">    at org.apache.oozie.action.hadoop.SparkMain.run(SparkMain.java:84)</div><div class="line">    at org.apache.oozie.action.hadoop.LauncherMain.run(LauncherMain.java:46)</div><div class="line">    at org.apache.oozie.action.hadoop.SparkMain.main(SparkMain.java:78)</div><div class="line">    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</div><div class="line">    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)</div><div class="line">    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</div><div class="line">    at java.lang.reflect.Method.invoke(Method.java:606)</div><div class="line">    at org.apache.oozie.action.hadoop.LauncherMapper.map(LauncherMapper.java:228)</div><div class="line">    at org.apache.hadoop.mapred.MapRunner.run(MapRunner.java:54)</div><div class="line">    at org.apache.hadoop.mapred.MapTask.runOldMapper(MapTask.java:453)</div><div class="line">    at org.apache.hadoop.mapred.MapTask.run(MapTask.java:343)</div><div class="line">    at org.apache.hadoop.mapred.LocalContainerLauncher$EventHandler.runSubtask(LocalContainerLauncher.java:388)</div><div class="line">    at org.apache.hadoop.mapred.LocalContainerLauncher$EventHandler.runTask(LocalContainerLauncher.java:302)</div><div class="line">    at org.apache.hadoop.mapred.LocalContainerLauncher$EventHandler.access$200(LocalContainerLauncher.java:187)</div><div class="line">    at org.apache.hadoop.mapred.LocalContainerLauncher$EventHandler$1.run(LocalContainerLauncher.java:230)</div><div class="line">    at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)</div><div class="line">    at java.util.concurrent.FutureTask.run(FutureTask.java:262)</div><div class="line">    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)</div><div class="line">    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)</div><div class="line">    at java.lang.Thread.run(Thread.java:745)</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>解决办法：</p>
+<ol>
+<li>编译相应版本的jar<ol>
+<li>oozie-sharelib-spark-4.1.0-cdh5.11.0.jar</li>
+<li>oozie-hadoop-utils-2.6.0-cdh5.11.0.oozie-4.1.0-cdh5.11.0.jar</li>
+<li>oozie-sharelib-oozie-4.1.0-cdh5.11.0.jar</li>
+</ol>
+</li>
+<li>替换${OOZIE_HOME}/oozie-server/webapps/oozie/WEB-INF/lib 下这3个对应的jar</li>
+<li>替换${OOZIE_HOME}/libtools 下这3个对应的jar    </li>
+</ol>
+]]></content>
     
     <summary type="html">
     
-      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;
+      &lt;script src=&quot;/assets/js/APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;h3 id=&quot;oozie安装&quot;&gt;&lt;a href=&quot;#oozie安装&quot; class=&quot;headerlink&quot; title=&quot;oozie安装&quot;&gt;&lt;/a&gt;oozie安装&lt;/h3&gt;&lt;ol
     
     </summary>
     
+    
+      <category term="组件 实战" scheme="http://kaidata.github.io/tags/%E7%BB%84%E4%BB%B6-%E5%AE%9E%E6%88%98/"/>
     
   </entry>
   

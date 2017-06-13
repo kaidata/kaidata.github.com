@@ -4,6 +4,98 @@
 
     
   <url>
+    <loc>http://kaidata.github.io/2017/06/09/oozie%E7%BA%AA%E8%A6%81/</loc>
+    <lastmod>2017-06-13T09:59:06.712Z</lastmod>
+    <data>
+        <display>
+        <title>oozie纪要</title>
+        <pubTime>2017-06-09T03:29:28.000Z</pubTime>
+        
+        <tag>组件 实战</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://kaidata.github.io/2017/06/13/oracle%E5%AE%9E%E6%88%98/</loc>
+    <lastmod>2017-06-13T01:34:03.043Z</lastmod>
+    <data>
+        <display>
+        <title>oracle实战</title>
+        <pubTime>2017-06-13T01:09:30.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://kaidata.github.io/2017/06/13/%E6%99%BA%E6%85%A7%E5%9F%8E%E5%B8%82/</loc>
+    <lastmod>2017-06-13T01:23:31.448Z</lastmod>
+    <data>
+        <display>
+        <title>智慧城市</title>
+        <pubTime>2017-06-13T01:23:31.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://kaidata.github.io/2017/06/13/%E5%B9%B3%E5%AE%89%E5%9F%8E%E5%B8%82/</loc>
+    <lastmod>2017-06-13T01:23:19.340Z</lastmod>
+    <data>
+        <display>
+        <title>平安城市</title>
+        <pubTime>2017-06-13T01:23:19.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://kaidata.github.io/2017/06/13/%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%AE%89%E9%98%B2/</loc>
+    <lastmod>2017-06-13T01:10:46.431Z</lastmod>
+    <data>
+        <display>
+        <title>大数据安防</title>
+        <pubTime>2017-06-13T01:10:46.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://kaidata.github.io/2017/06/13/%E7%82%B9%E6%BB%B4%E6%9D%82%E8%AE%B0/</loc>
+    <lastmod>2017-06-13T01:10:07.711Z</lastmod>
+    <data>
+        <display>
+        <title>点滴杂记</title>
+        <pubTime>2017-06-13T01:10:07.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://kaidata.github.io/2017/06/09/data-generator-%E6%95%B0%E6%8D%AE%E7%94%9F%E6%88%90%E7%BA%AA%E8%A6%81/</loc>
     <lastmod>2017-06-09T06:41:18.156Z</lastmod>
     <data>
@@ -45,21 +137,6 @@
         <display>
         <title>spark-R纪要</title>
         <pubTime>2017-06-09T03:31:12.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://kaidata.github.io/2017/06/09/oozie%E7%BA%AA%E8%A6%81/</loc>
-    <lastmod>2017-06-09T03:29:28.707Z</lastmod>
-    <data>
-        <display>
-        <title>oozie纪要</title>
-        <pubTime>2017-06-09T03:29:28.000Z</pubTime>
         
          
            
